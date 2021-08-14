@@ -142,6 +142,30 @@ C1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C1.c.s
 .PHONY : C1.c.s
 
+C2.obj: C2.c.obj
+.PHONY : C2.obj
+
+# target to build an object file
+C2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.obj
+.PHONY : C2.c.obj
+
+C2.i: C2.c.i
+.PHONY : C2.i
+
+# target to preprocess a source file
+C2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.i
+.PHONY : C2.c.i
+
+C2.s: C2.c.s
+.PHONY : C2.s
+
+# target to generate assembly for a file
+C2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.s
+.PHONY : C2.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -178,6 +202,9 @@ help:
 	@echo ... C1.obj
 	@echo ... C1.i
 	@echo ... C1.s
+	@echo ... C2.obj
+	@echo ... C2.i
+	@echo ... C2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

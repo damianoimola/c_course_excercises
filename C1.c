@@ -21,6 +21,7 @@ void c1_1(int x, int y){
 }
 
 
+
 /// Euclide's Algorithm
 /// \param a
 /// \param b
@@ -39,6 +40,8 @@ void c1_2(int a, int b){
 
     printf("Il risultato dell'algoritmo è: %d", a);
 }
+
+
 
 /// Fibonacci's sequence
 /// \param len
@@ -72,6 +75,7 @@ int c1_4_verifica_ordinamento(const double num[], int len){
     return 1;
 }
 
+
 /// Checks if the array is ordered (low to high) recursively
 /// \param num
 /// \param len
@@ -94,6 +98,7 @@ int c1_4_verifica_ordinamento_ric(const double num[], int len){
         return c1_4_verifica_ordinamento_ric(newNum, last);
     }
 }
+
 
 /// Get the lenght of the highest ordered subsequence
 /// \param num
@@ -121,6 +126,7 @@ int c1_4_sequenza_ordinata(const double num[], int len){
     return bestCounter;
 }
 
+
 /// calls the c1_4_xxxxx methods
 void c1_4(){
     int len = 10;
@@ -130,6 +136,7 @@ void c1_4(){
     c1_4_verifica_ordinamento_ric(array, len);
     c1_4_sequenza_ordinata(array, len);
 }
+
 
 
 /// exchange the first half chars with the second half
@@ -161,6 +168,8 @@ void c1_5(const char arr[], int len){
         printf("%c", retArr[i]);
     }
 }
+
+
 
 /// Revert the array
 /// \param arr

@@ -87,6 +87,12 @@
 		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C1.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C1.h">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C2.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
 		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/main.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>

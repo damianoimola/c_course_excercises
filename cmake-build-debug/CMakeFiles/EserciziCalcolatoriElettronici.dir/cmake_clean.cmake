@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/C1.c.obj"
+  "CMakeFiles/EserciziCalcolatoriElettronici.dir/C2.c.obj"
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.obj"
   "EserciziCalcolatoriElettronici.exe"
   "EserciziCalcolatoriElettronici.exe.manifest"
