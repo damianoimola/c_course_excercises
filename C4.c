@@ -44,8 +44,14 @@ int c4_1_same_row_col(int n, int m, int A[m][n], int B[n][m]){
 /// \param arr1
 /// \param arr2
 /// \return
-int * c4_1_sum_array(int x, int arr1[x], int arr2[x]){
+int * c4_1_sum_array(int x, const int arr1[x], const int arr2[x]){
+    int * sum = (int*) malloc(x*sizeof(int));
 
+    for(int i=0; i<x; i++){
+        sum[i] = arr1[i] + arr2[i];
+    }
+
+    return sum;
 }
 
 /// Check if the row of A is equal to a sum of two B's columns

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/C2.c.obj"
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/C3.c.obj"
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/C4.c.obj"
+  "CMakeFiles/EserciziCalcolatoriElettronici.dir/C5.c.obj"
   "CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.obj"
   "EserciziCalcolatoriElettronici.exe"
   "EserciziCalcolatoriElettronici.exe.manifest"
