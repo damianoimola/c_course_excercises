@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/C Lang/EserciziCalcolatoriElettronici/C1.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C1.c.obj"
   "D:/C Lang/EserciziCalcolatoriElettronici/C2.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C2.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/C3.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C3.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/C4.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C4.c.obj"
   "D:/C Lang/EserciziCalcolatoriElettronici/main.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")

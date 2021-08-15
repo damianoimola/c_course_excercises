@@ -166,6 +166,54 @@ C2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.s
 .PHONY : C2.c.s
 
+C3.obj: C3.c.obj
+.PHONY : C3.obj
+
+# target to build an object file
+C3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.obj
+.PHONY : C3.c.obj
+
+C3.i: C3.c.i
+.PHONY : C3.i
+
+# target to preprocess a source file
+C3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.i
+.PHONY : C3.c.i
+
+C3.s: C3.c.s
+.PHONY : C3.s
+
+# target to generate assembly for a file
+C3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.s
+.PHONY : C3.c.s
+
+C4.obj: C4.c.obj
+.PHONY : C4.obj
+
+# target to build an object file
+C4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.obj
+.PHONY : C4.c.obj
+
+C4.i: C4.c.i
+.PHONY : C4.i
+
+# target to preprocess a source file
+C4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.i
+.PHONY : C4.c.i
+
+C4.s: C4.c.s
+.PHONY : C4.s
+
+# target to generate assembly for a file
+C4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.s
+.PHONY : C4.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -205,6 +253,12 @@ help:
 	@echo ... C2.obj
 	@echo ... C2.i
 	@echo ... C2.s
+	@echo ... C3.obj
+	@echo ... C3.i
+	@echo ... C3.s
+	@echo ... C4.obj
+	@echo ... C4.i
+	@echo ... C4.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

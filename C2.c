@@ -94,7 +94,7 @@ int c2_2_check_diagonal_side(int n, int mat[n][n], int superior){
 
 void c2_2(){
     int n = 5;
-    int mat[n][n]; // to be popolate
+    int mat[n][n]; // to be filled
     printf("0 if is not diagonal, 1 if it is --> %d", c2_2_check_diagonal(n, mat));
     printf("0 if is not superior diagonal, 1 if it is --> %d", c2_2_check_diagonal_side(n, mat, 1));
     printf("0 if is not inferior diagonal, 1 if it is --> %d", c2_2_check_diagonal_side(n, mat, 0));
@@ -128,7 +128,9 @@ void c2_3_crea_indice(int n, double arr[n]){
 }
 
 void c2_3(){
-
+    int n = 5;
+    double arr[n]; // to be filled
+    c2_3_crea_indice(n, arr);
 }
 
 
