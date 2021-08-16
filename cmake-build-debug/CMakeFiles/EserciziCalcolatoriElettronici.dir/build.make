@@ -188,6 +188,25 @@ CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\C6.c"
 <<
 
+CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj: C7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/C7.c.obj"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\C7.c"
+<<
+
+CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/C7.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\C7.c"
+<<
+
+CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/C7.c.s"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\C7.c"
+<<
+
 # Object files for target EserciziCalcolatoriElettronici
 EserciziCalcolatoriElettronici_OBJECTS = \
 "CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj" \
@@ -196,7 +215,8 @@ EserciziCalcolatoriElettronici_OBJECTS = \
 "CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.obj" \
 "CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.obj" \
 "CMakeFiles\EserciziCalcolatoriElettronici.dir\C5.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.obj"
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj"
 
 # External object files for target EserciziCalcolatoriElettronici
 EserciziCalcolatoriElettronici_EXTERNAL_OBJECTS =
@@ -208,9 +228,10 @@ EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.di
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.obj
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\C5.c.obj
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable EserciziCalcolatoriElettronici.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable EserciziCalcolatoriElettronici.exe"
 	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\EserciziCalcolatoriElettronici.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\EserciziCalcolatoriElettronici.dir\objects1.rsp @<<
  /out:EserciziCalcolatoriElettronici.exe /implib:EserciziCalcolatoriElettronici.lib /pdb:"D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\EserciziCalcolatoriElettronici.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
