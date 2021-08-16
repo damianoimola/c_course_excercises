@@ -32,7 +32,7 @@ void c7_1_pop_multiples(l_node * head, int p, int n){
     // devo mantenere almeno il primo (quindi parto dal doppio del primo) -> i=p*2
     // vado a step di p -> i=i+p
     for (int i=p*2; i<=n; i=i+p){
-        c7_1_pop_index(head, p-start_number, n);
+        c7_1_pop_index(head, p-start_number);
     }
 }
 
