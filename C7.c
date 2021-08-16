@@ -57,6 +57,10 @@ void c7_1_pop_index(l_node * head, int i){
 }
 
 
+
+
+
+//TODO: both senses for each method
 int c7_2_search_vertical(int n, int m, char * mat[n][m], const char * s, int i, int j);
 int c7_2_search_horizontal(int n, int m, char * mat[n][m], const char * s, int i, int j);
 int c7_2_search_diagonal(int n, int m, char * mat[n][m], const char * s, int i, int j);
