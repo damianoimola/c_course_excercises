@@ -1,4 +1,4 @@
-# c_course_excercises
+# electronic-computers-exercises
 ***
 The functions that you can see inside files **ARE NOT TESTED**.
 
