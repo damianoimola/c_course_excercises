@@ -50,7 +50,7 @@ void c6_2_push(struct node * head, int val){
 }
 
 
-void c6_2(int len, int arr[len]){
+void c6_2(int len, int * arr){
     if(len == 0){
         return;
     }

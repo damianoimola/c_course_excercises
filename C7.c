@@ -62,15 +62,15 @@ void c7_1_pop_index(l_node * head, int i){
 
 
 
-int c7_2_search_vertical(int n, int m, char * mat[n][m], const char * s, int i, int j);
-int c7_2_search_horizontal(int n, int m, char * mat[n][m], const char * s, int i, int j);
-int c7_2_search_diagonal(int n, int m, char * mat[n][m], const char * s, int i, int j);
+int c7_2_search_vertical(int n, int m, char ** mat, const char * s, int i, int j);
+int c7_2_search_horizontal(int n, int m, char ** mat, const char * s, int i, int j);
+int c7_2_search_diagonal(int n, int m, char ** mat, const char * s, int i, int j);
 
 
-int c7_2(int n, int m, char * mat[n][m], const char * s){
+int c7_2(int n, int m, char ** mat, const char * s){
     for (int i=0; i<n; i++){
         for (int j=0; j<m; j++){
-            if(mat[i][j] == s){
+            if(&mat[i][j] == s){
                 if(c7_2_search_vertical(n, m, mat, s, i, j) == 1
                 || c7_2_search_horizontal(n, m, mat, s, i, j) == 1
                 || c7_2_search_diagonal(n, m, mat, s, i, j) == 1){
@@ -90,15 +90,15 @@ int c7_2(int n, int m, char * mat[n][m], const char * s){
 /// \param i
 /// \param j
 /// \return
-int c7_2_search_vertical(int n, int m, char * mat[n][m], const char * s, int i, int j){
+int c7_2_search_vertical(int n, int m, char ** mat, const char * s, int i, int j){
     int counter = 0;
     for(int p=i; p<n; p++){
-        if(mat[p][j] != s+counter){
+        if(&mat[p][j] != s+counter){
             return 0;
         }
     }
     for(int p=i; p>=0; p--){
-        if(mat[p][j] != s+counter){
+        if(&mat[p][j] != s+counter){
             return 0;
         }
     }
@@ -113,15 +113,15 @@ int c7_2_search_vertical(int n, int m, char * mat[n][m], const char * s, int i, 
 /// \param i
 /// \param j
 /// \return
-int c7_2_search_horizontal(int n, int m, char * mat[n][m], const char * s, int i, int j){
+int c7_2_search_horizontal(int n, int m, char ** mat, const char * s, int i, int j){
     int counter = 0;
     for(int q=j; q<m; q++){
-        if(mat[i][q] != s+counter){
+        if(&mat[i][q] != s+counter){
             return 0;
         }
     }
     for(int q=j; q>=0; q--){
-        if(mat[i][q] != s+counter){
+        if(&mat[i][q] != s+counter){
             return 0;
         }
     }
@@ -136,16 +136,16 @@ int c7_2_search_horizontal(int n, int m, char * mat[n][m], const char * s, int i
 /// \param i
 /// \param j
 /// \return
-int c7_2_search_diagonal(int n, int m, char * mat[n][m], const char * s, int i, int j){
+int c7_2_search_diagonal(int n, int m, char ** mat, const char * s, int i, int j){
     int counter = 0;
 
     for(int h=i; (i+h<n) || (j+h<m); h++){
-        if(mat[i+h][j+h] != s+counter){
+        if(&mat[i+h][j+h] != s+counter){
             return 0;
         }
     }
     for(int h=i; (i+h>=0) || (j+h>=0); h--){
-        if(mat[i+h][j+h] != s+counter){
+        if(&mat[i+h][j+h] != s+counter){
             return 0;
         }
     }
@@ -169,7 +169,7 @@ l_node * c7_3_top(int n, l_node * head);
 // int main(int argc, char **argv) --> per recuperare i parametri dalla riga di comando
 // argc: number of argument > 1
 // **argv is a pointer to char *; is an array of char *
-void c7_3(int n, int arr[n]){
+void c7_3(int n, int * arr){
     l_node * head = (l_node*) malloc(sizeof(l_node));
     head->val = arr[0];
     head->next = NULL;
@@ -201,7 +201,7 @@ void c7_3_push(l_node * head, int val){
 /// \param n
 /// \param head
 void c7_3_sort(int n, l_node * head){
-    int arr[n];
+    int * arr = (int*) malloc(n*sizeof(int));
     int counter = 0;
 
     // extracting ll to array
@@ -286,7 +286,7 @@ l_cnode * c7_4_list_by_letter(l_cnode * head, char l);
 // int main(int argc, char **argv) --> per recuperare i parametri dalla riga di comando
 // argc: number of argument > 1
 // **argv is a pointer to char *; is an array of char *
-void c7_4(int n, char * strings[n]){
+void c7_4(int n, char ** strings){
     l_cnode * head = (l_cnode*) malloc(sizeof(l_cnode));
     for (int i=0; i<n; i++){
         c7_4_push_string(head, strings[i]);

@@ -11,7 +11,7 @@ int c5_1_check_palindrome_ric(char * s){
     if(len == 0 || len == 1){
         return 1;
     } else if(s[0] == s[len-1]){
-        char tmp[len-2]; // rimuovo primo e ultimo
+        char * tmp = (char*) malloc((len-2) * sizeof(char)); // rimuovo primo e ultimo
         for(int i=1; i<(len-1); i++){
             tmp[i-1] = s[i];
         }
@@ -24,8 +24,8 @@ int c5_1_check_palindrome_ric(char * s){
 
 int c5_1_check_palindrome(char * s){
     unsigned int len = strlen(s);
-    char first_half[len/2];
-    char second_half[len/2];
+    char * first_half = (char*) malloc((len-2) * sizeof(char));
+    char * second_half = (char*) malloc((len-2) * sizeof(char));
     for (int i=0; i<(len/2); i++){
         first_half[i] = s[i];
         second_half[i] = s[len-i];
@@ -50,7 +50,7 @@ void c5_1(){
 }
 
 
-void c5_2(int m, int n, int A[n][m]){
+void c5_2(int m, int n, int ** A){
     int cols = 3;
     int max_rows = m*n;
 
@@ -81,7 +81,7 @@ void c5_2(int m, int n, int A[n][m]){
 
 void c5_3(char * s){
     unsigned int len = strlen(s);
-    char str_vec [len][len];
+    char ** str_vec  = (char**) malloc(len*len * sizeof(char));;
     int counter = 0;
     for(int i=0; i<len; i++){
         int check = isspace(s[i]);

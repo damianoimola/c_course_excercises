@@ -10,7 +10,7 @@
 /// \param row_A
 /// \param col_B
 /// \return
-int c4_1_are_equals(int m, const int row_A[m], const int col_B[m]){
+int c4_1_are_equals(int m, const int * row_A, const int * col_B){
     for (int i=0; i<m; i++){
         if(row_A[i] != col_B[i]){
             return 0;
@@ -25,7 +25,7 @@ int c4_1_are_equals(int m, const int row_A[m], const int col_B[m]){
 /// \param A
 /// \param B
 /// \return
-int c4_1_same_row_col(int n, int m, int A[m][n], int B[n][m]){
+int c4_1_same_row_col(int n, int m, int ** A, int ** B){
     for(int i=0; i<m; i++){
         int * col = (int*) malloc(m*sizeof(int));
         int * row = (int*) malloc(m*sizeof(int));
@@ -44,7 +44,7 @@ int c4_1_same_row_col(int n, int m, int A[m][n], int B[n][m]){
 /// \param arr1
 /// \param arr2
 /// \return
-int * c4_1_sum_array(int x, const int arr1[x], const int arr2[x]){
+int * c4_1_sum_array(int x, const int * arr1, const int * arr2){
     int * sum = (int*) malloc(x*sizeof(int));
 
     for(int i=0; i<x; i++){
@@ -60,7 +60,7 @@ int * c4_1_sum_array(int x, const int arr1[x], const int arr2[x]){
 /// \param row
 /// \param B
 /// \return
-int c4_1_row_from_sum_col(int n, int m, int row[n], int B[n][m]){
+int c4_1_row_from_sum_col(int n, int m, int * row, int ** B){
     for(int i=0; i<m; i++){
         for(int j=i; i<m; i++){
             int * col1 = (int*) malloc(m*sizeof(int));
@@ -86,7 +86,7 @@ int c4_1_row_from_sum_col(int n, int m, int row[n], int B[n][m]){
 /// \param A
 /// \param B
 /// \return
-int c4_1_any_row_from_sum_col(int n, int m, int A[m][n], int B[n][m]){
+int c4_1_any_row_from_sum_col(int n, int m, int ** A, int ** B){
     for(int i=0; i<m; i++){
         int * row = (int*) malloc(m*sizeof(int));
         row = c3_1_get_row(n, m, A, i);
@@ -99,7 +99,7 @@ int c4_1_any_row_from_sum_col(int n, int m, int A[m][n], int B[n][m]){
 }
 
 
-void c4_1(int n, int m, int A[m][n], int B[n][m]){
+void c4_1(int n, int m, int ** A, int ** B){
     if(c4_1_same_row_col(n, m, A, B)==1){
         printf("Esiste una riga di A che è uguale ad una colonna di B");
     }

@@ -41,7 +41,7 @@ void c2_1()
 /// \param n
 /// \param mat
 /// \return
-int c2_2_check_diagonal(int n, int mat[n][n]){
+int c2_2_check_diagonal(const int n, int * mat[]){
     if(n==0 || n ==1){
         return 1;
     }
@@ -65,7 +65,7 @@ int c2_2_check_diagonal(int n, int mat[n][n]){
 /// \param mat
 /// \param superior
 /// \return
-int c2_2_check_diagonal_side(int n, int mat[n][n], int superior){
+int c2_2_check_diagonal_side(int n, int * mat[], int superior){
     if(n==0 || n ==1){
         return 1;
     }
@@ -94,7 +94,7 @@ int c2_2_check_diagonal_side(int n, int mat[n][n], int superior){
 
 void c2_2(){
     int n = 5;
-    int mat[n][n]; // to be filled
+    int ** mat = (int**) malloc(n*n*sizeof(int)); // to be filled
     printf("0 if is not diagonal, 1 if it is --> %d", c2_2_check_diagonal(n, mat));
     printf("0 if is not superior diagonal, 1 if it is --> %d", c2_2_check_diagonal_side(n, mat, 1));
     printf("0 if is not inferior diagonal, 1 if it is --> %d", c2_2_check_diagonal_side(n, mat, 0));
@@ -104,8 +104,8 @@ void c2_2(){
 /// Crea un array di puntatori ordinati in ordine crescente
 /// \param n
 /// \param arr
-void c2_3_crea_indice(int n, double arr[n]){
-    double ordered[n];
+void c2_3_crea_indice(int n, double arr[]){
+    double *ordered = (double*) malloc(n*sizeof(double));
 
     for(int i=0; i<n-1; i++){
         for (int j=0; j<(n-1-i); j++){
@@ -117,19 +117,19 @@ void c2_3_crea_indice(int n, double arr[n]){
         }
     }
 
-    double * pointers[n];
+    double * pointers = (double*) malloc(n*sizeof(double));
     for(int i=0; i<n; i++){
-        pointers[i] = &ordered[i];
+//        pointers[i] = &ordered[i];
     }
 
     for(int i=0; i<n; i++){
-        printf("%lf", *pointers[i]);
+//        printf("%lf", *pointers[i]);
     }
 }
 
 void c2_3(){
     int n = 5;
-    double arr[n]; // to be filled
+    double * arr = (double*) malloc(n * sizeof(int)); // to be filled
     c2_3_crea_indice(n, arr);
 }
 

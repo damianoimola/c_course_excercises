@@ -46,7 +46,7 @@ void c1_2(int a, int b){
 /// Fibonacci's sequence
 /// \param len
 void c1_3(int len){
-    int fib[len];
+    int *fib = (int*) malloc(len*sizeof(int));
 
     fib[0] = 1;
     fib[1] = 1;
@@ -90,7 +90,7 @@ int c1_4_verifica_ordinamento_ric(const double num[], int len){
         return 0;
     }
     else {
-        double newNum[last];
+        double *newNum = (double*) malloc(last*sizeof(int));
 
         for (int i=0; i<last; i++){
             newNum[i] = num[i];
@@ -148,13 +148,13 @@ void c1_5(const char arr[], int len){
     }
 
     // second half chars
-    char tmpArr[len/2];
+    char * tmpArr = (char*) malloc((len/2) * sizeof(char));
     for(int i=0; i<=len/2; i++){
         tmpArr[i%(len/2)] = arr[i];
     }
 
     // rebuilding
-    char retArr[len];
+    char * retArr = (char*) malloc(len * sizeof(char));
     for(int i=0; i<len; i++){
         if(i<len/2){
             retArr[i] = tmpArr[i];
@@ -175,7 +175,7 @@ void c1_5(const char arr[], int len){
 /// \param arr
 /// \param len
 void c1_6(const int arr[], int len){
-    int tmpArr[len/2];
+    int *tmpArr = (int*) malloc((len/2)*sizeof(int));
 
     for(int i=0; i<=len; i++){
         tmpArr[i] = arr[len-1-i];
