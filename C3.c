@@ -2,7 +2,6 @@
 #include "stdlib.h"
 #include "string.h"
 #include <math.h>
-#include "C3.h"
 
 /// Returns if the elements in arrays are same
 /// \param m
