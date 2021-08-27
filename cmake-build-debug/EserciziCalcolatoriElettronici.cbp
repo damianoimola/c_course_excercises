@@ -84,28 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C1.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C2.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C3.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C4.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C5.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C6.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
-		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/C7.c">
-			<Option target="EserciziCalcolatoriElettronici"/>
-		</Unit>
 		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/main.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C1.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C2.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C3.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C4.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C5.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C6.c">
+			<Option target="EserciziCalcolatoriElettronici"/>
+		</Unit>
+		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C7.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
 		<Unit filename="D:/C Lang/EserciziCalcolatoriElettronici/CMakeLists.txt">

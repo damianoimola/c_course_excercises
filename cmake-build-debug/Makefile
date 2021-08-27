@@ -118,174 +118,6 @@ EserciziCalcolatoriElettronici\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\build
 .PHONY : EserciziCalcolatoriElettronici\fast
 
-C1.obj: C1.c.obj
-.PHONY : C1.obj
-
-# target to build an object file
-C1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C1.c.obj
-.PHONY : C1.c.obj
-
-C1.i: C1.c.i
-.PHONY : C1.i
-
-# target to preprocess a source file
-C1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C1.c.i
-.PHONY : C1.c.i
-
-C1.s: C1.c.s
-.PHONY : C1.s
-
-# target to generate assembly for a file
-C1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C1.c.s
-.PHONY : C1.c.s
-
-C2.obj: C2.c.obj
-.PHONY : C2.obj
-
-# target to build an object file
-C2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.obj
-.PHONY : C2.c.obj
-
-C2.i: C2.c.i
-.PHONY : C2.i
-
-# target to preprocess a source file
-C2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.i
-.PHONY : C2.c.i
-
-C2.s: C2.c.s
-.PHONY : C2.s
-
-# target to generate assembly for a file
-C2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C2.c.s
-.PHONY : C2.c.s
-
-C3.obj: C3.c.obj
-.PHONY : C3.obj
-
-# target to build an object file
-C3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.obj
-.PHONY : C3.c.obj
-
-C3.i: C3.c.i
-.PHONY : C3.i
-
-# target to preprocess a source file
-C3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.i
-.PHONY : C3.c.i
-
-C3.s: C3.c.s
-.PHONY : C3.s
-
-# target to generate assembly for a file
-C3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C3.c.s
-.PHONY : C3.c.s
-
-C4.obj: C4.c.obj
-.PHONY : C4.obj
-
-# target to build an object file
-C4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.obj
-.PHONY : C4.c.obj
-
-C4.i: C4.c.i
-.PHONY : C4.i
-
-# target to preprocess a source file
-C4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.i
-.PHONY : C4.c.i
-
-C4.s: C4.c.s
-.PHONY : C4.s
-
-# target to generate assembly for a file
-C4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C4.c.s
-.PHONY : C4.c.s
-
-C5.obj: C5.c.obj
-.PHONY : C5.obj
-
-# target to build an object file
-C5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C5.c.obj
-.PHONY : C5.c.obj
-
-C5.i: C5.c.i
-.PHONY : C5.i
-
-# target to preprocess a source file
-C5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C5.c.i
-.PHONY : C5.c.i
-
-C5.s: C5.c.s
-.PHONY : C5.s
-
-# target to generate assembly for a file
-C5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C5.c.s
-.PHONY : C5.c.s
-
-C6.obj: C6.c.obj
-.PHONY : C6.obj
-
-# target to build an object file
-C6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.obj
-.PHONY : C6.c.obj
-
-C6.i: C6.c.i
-.PHONY : C6.i
-
-# target to preprocess a source file
-C6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.i
-.PHONY : C6.c.i
-
-C6.s: C6.c.s
-.PHONY : C6.s
-
-# target to generate assembly for a file
-C6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C6.c.s
-.PHONY : C6.c.s
-
-C7.obj: C7.c.obj
-.PHONY : C7.obj
-
-# target to build an object file
-C7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.obj
-.PHONY : C7.c.obj
-
-C7.i: C7.c.i
-.PHONY : C7.i
-
-# target to preprocess a source file
-C7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.i
-.PHONY : C7.c.i
-
-C7.s: C7.c.s
-.PHONY : C7.s
-
-# target to generate assembly for a file
-C7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C7.c.s
-.PHONY : C7.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -310,6 +142,174 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.s
 .PHONY : main.c.s
 
+not-tested\C1.obj: not-tested\C1.c.obj
+.PHONY : not-tested\C1.obj
+
+# target to build an object file
+not-tested\C1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj
+.PHONY : not-tested\C1.c.obj
+
+not-tested\C1.i: not-tested\C1.c.i
+.PHONY : not-tested\C1.i
+
+# target to preprocess a source file
+not-tested\C1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.i
+.PHONY : not-tested\C1.c.i
+
+not-tested\C1.s: not-tested\C1.c.s
+.PHONY : not-tested\C1.s
+
+# target to generate assembly for a file
+not-tested\C1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.s
+.PHONY : not-tested\C1.c.s
+
+not-tested\C2.obj: not-tested\C2.c.obj
+.PHONY : not-tested\C2.obj
+
+# target to build an object file
+not-tested\C2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj
+.PHONY : not-tested\C2.c.obj
+
+not-tested\C2.i: not-tested\C2.c.i
+.PHONY : not-tested\C2.i
+
+# target to preprocess a source file
+not-tested\C2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.i
+.PHONY : not-tested\C2.c.i
+
+not-tested\C2.s: not-tested\C2.c.s
+.PHONY : not-tested\C2.s
+
+# target to generate assembly for a file
+not-tested\C2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.s
+.PHONY : not-tested\C2.c.s
+
+not-tested\C3.obj: not-tested\C3.c.obj
+.PHONY : not-tested\C3.obj
+
+# target to build an object file
+not-tested\C3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj
+.PHONY : not-tested\C3.c.obj
+
+not-tested\C3.i: not-tested\C3.c.i
+.PHONY : not-tested\C3.i
+
+# target to preprocess a source file
+not-tested\C3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.i
+.PHONY : not-tested\C3.c.i
+
+not-tested\C3.s: not-tested\C3.c.s
+.PHONY : not-tested\C3.s
+
+# target to generate assembly for a file
+not-tested\C3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.s
+.PHONY : not-tested\C3.c.s
+
+not-tested\C4.obj: not-tested\C4.c.obj
+.PHONY : not-tested\C4.obj
+
+# target to build an object file
+not-tested\C4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj
+.PHONY : not-tested\C4.c.obj
+
+not-tested\C4.i: not-tested\C4.c.i
+.PHONY : not-tested\C4.i
+
+# target to preprocess a source file
+not-tested\C4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.i
+.PHONY : not-tested\C4.c.i
+
+not-tested\C4.s: not-tested\C4.c.s
+.PHONY : not-tested\C4.s
+
+# target to generate assembly for a file
+not-tested\C4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.s
+.PHONY : not-tested\C4.c.s
+
+not-tested\C5.obj: not-tested\C5.c.obj
+.PHONY : not-tested\C5.obj
+
+# target to build an object file
+not-tested\C5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj
+.PHONY : not-tested\C5.c.obj
+
+not-tested\C5.i: not-tested\C5.c.i
+.PHONY : not-tested\C5.i
+
+# target to preprocess a source file
+not-tested\C5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.i
+.PHONY : not-tested\C5.c.i
+
+not-tested\C5.s: not-tested\C5.c.s
+.PHONY : not-tested\C5.s
+
+# target to generate assembly for a file
+not-tested\C5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.s
+.PHONY : not-tested\C5.c.s
+
+not-tested\C6.obj: not-tested\C6.c.obj
+.PHONY : not-tested\C6.obj
+
+# target to build an object file
+not-tested\C6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj
+.PHONY : not-tested\C6.c.obj
+
+not-tested\C6.i: not-tested\C6.c.i
+.PHONY : not-tested\C6.i
+
+# target to preprocess a source file
+not-tested\C6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.i
+.PHONY : not-tested\C6.c.i
+
+not-tested\C6.s: not-tested\C6.c.s
+.PHONY : not-tested\C6.s
+
+# target to generate assembly for a file
+not-tested\C6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.s
+.PHONY : not-tested\C6.c.s
+
+not-tested\C7.obj: not-tested\C7.c.obj
+.PHONY : not-tested\C7.obj
+
+# target to build an object file
+not-tested\C7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj
+.PHONY : not-tested\C7.c.obj
+
+not-tested\C7.i: not-tested\C7.c.i
+.PHONY : not-tested\C7.i
+
+# target to preprocess a source file
+not-tested\C7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.i
+.PHONY : not-tested\C7.c.i
+
+not-tested\C7.s: not-tested\C7.c.s
+.PHONY : not-tested\C7.s
+
+# target to generate assembly for a file
+not-tested\C7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.s
+.PHONY : not-tested\C7.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -319,30 +319,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... EserciziCalcolatoriElettronici
-	@echo ... C1.obj
-	@echo ... C1.i
-	@echo ... C1.s
-	@echo ... C2.obj
-	@echo ... C2.i
-	@echo ... C2.s
-	@echo ... C3.obj
-	@echo ... C3.i
-	@echo ... C3.s
-	@echo ... C4.obj
-	@echo ... C4.i
-	@echo ... C4.s
-	@echo ... C5.obj
-	@echo ... C5.i
-	@echo ... C5.s
-	@echo ... C6.obj
-	@echo ... C6.i
-	@echo ... C6.s
-	@echo ... C7.obj
-	@echo ... C7.i
-	@echo ... C7.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... not-tested/C1.obj
+	@echo ... not-tested/C1.i
+	@echo ... not-tested/C1.s
+	@echo ... not-tested/C2.obj
+	@echo ... not-tested/C2.i
+	@echo ... not-tested/C2.s
+	@echo ... not-tested/C3.obj
+	@echo ... not-tested/C3.i
+	@echo ... not-tested/C3.s
+	@echo ... not-tested/C4.obj
+	@echo ... not-tested/C4.i
+	@echo ... not-tested/C4.s
+	@echo ... not-tested/C5.obj
+	@echo ... not-tested/C5.i
+	@echo ... not-tested/C5.s
+	@echo ... not-tested/C6.obj
+	@echo ... not-tested/C6.i
+	@echo ... not-tested/C6.s
+	@echo ... not-tested/C7.obj
+	@echo ... not-tested/C7.i
+	@echo ... not-tested/C7.s
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(EserciziCalcolatoriElettronici C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(EserciziCalcolatoriElettronici main.c C1.c C2.c C3.c C4.c C5.c C6.c C7.c)
+add_executable(EserciziCalcolatoriElettronici main.c not-tested/C1.c not-tested/C2.c not-tested/C3.c not-tested/C4.c not-tested/C5.c not-tested/C6.c not-tested/C7.c)

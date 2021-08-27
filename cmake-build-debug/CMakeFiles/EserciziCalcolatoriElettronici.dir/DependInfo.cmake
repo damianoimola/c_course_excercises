@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C Lang/EserciziCalcolatoriElettronici/C1.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C1.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C2.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C2.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C3.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C3.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C4.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C4.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C5.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C5.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C6.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C6.c.obj"
-  "D:/C Lang/EserciziCalcolatoriElettronici/C7.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/C7.c.obj"
   "D:/C Lang/EserciziCalcolatoriElettronici/main.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C1.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C1.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C2.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C2.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C3.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C3.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C4.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C4.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C5.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C5.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C6.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C6.c.obj"
+  "D:/C Lang/EserciziCalcolatoriElettronici/not-tested/C7.c" "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C7.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
