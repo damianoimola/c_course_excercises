@@ -8,7 +8,7 @@
  *
  *  THIS FILE IS RUNNED AND COMPILED WITH GCC, NOT WITH VISUAL
  *  STUDIO C/C++ COMPILER (as all the rest of project)
- *  SO, COMPILE THIS WITH THE FOLLOWING COMMAND:
+ *  SO, COMPILE THIS WITH THE FOLLOWING COMMAND (VIM):
  *          gcc "%" -o <exec path>
  *  AND RUN IT WITH
  *          <exec path>
@@ -25,7 +25,7 @@ void c1_5();
 void c1_6();
 
 
-int main(int argn, char * argv){
+int main(int argn, char ** argv){
 	c1_1();
 	c1_2();
 	c1_3();
