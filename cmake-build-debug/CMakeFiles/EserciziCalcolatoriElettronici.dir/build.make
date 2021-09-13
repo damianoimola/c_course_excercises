@@ -55,183 +55,162 @@ include CMakeFiles\EserciziCalcolatoriElettronici.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj: ..\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj: ..\pre-course\not-tested\C1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C1.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C1.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\main.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C1.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C1.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/main.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C1.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C1.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj: ..\not-tested\C1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C1.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj: ..\pre-course\not-tested\C2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C2.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C1.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C2.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C1.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C1.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C2.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C2.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C1.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C2.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C1.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C2.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj: ..\not-tested\C2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C2.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj: ..\pre-course\not-tested\C3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C3.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C2.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C3.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C2.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C2.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C3.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C3.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C2.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C3.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C2.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C3.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj: ..\not-tested\C3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C3.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj: ..\pre-course\not-tested\C4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C4.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C3.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C4.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C3.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C3.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C4.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C4.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C3.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C4.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C3.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C4.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj: ..\not-tested\C4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C4.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj: ..\pre-course\not-tested\C5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C5.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C4.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C5.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C4.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C4.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C5.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C5.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C4.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C5.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C4.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C5.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj: ..\not-tested\C5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C5.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj: ..\pre-course\not-tested\C6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C6.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C5.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C6.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C5.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C5.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C6.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C6.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C5.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C6.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C5.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C6.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj: ..\not-tested\C6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C6.c.obj"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj: ..\pre-course\not-tested\C7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C7.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C6.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C7.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C6.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C6.c"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C7.c.i"
+	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C7.c"
 <<
 
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C6.c.s"
+CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/pre-course/not-tested/C7.c.s"
 	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C6.c"
-<<
-
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj: CMakeFiles\EserciziCalcolatoriElettronici.dir\flags.make
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj: ..\not-tested\C7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C7.c.obj"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj /FdCMakeFiles\EserciziCalcolatoriElettronici.dir\ /FS -c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C7.c"
-<<
-
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C7.c.i"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C7.c"
-<<
-
-CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EserciziCalcolatoriElettronici.dir/not-tested/C7.c.s"
-	C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\not-tested\C7.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.s /c "D:\C Lang\EserciziCalcolatoriElettronici\pre-course\not-tested\C7.c"
 <<
 
 # Object files for target EserciziCalcolatoriElettronici
 EserciziCalcolatoriElettronici_OBJECTS = \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj" \
-"CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj"
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj" \
+"CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj"
 
 # External object files for target EserciziCalcolatoriElettronici
 EserciziCalcolatoriElettronici_EXTERNAL_OBJECTS =
 
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\main.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C1.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C2.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C3.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C4.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C5.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C6.c.obj
-EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\not-tested\C7.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj
+EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make
 EserciziCalcolatoriElettronici.exe: CMakeFiles\EserciziCalcolatoriElettronici.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable EserciziCalcolatoriElettronici.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable EserciziCalcolatoriElettronici.exe"
 	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\EserciziCalcolatoriElettronici.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\EserciziCalcolatoriElettronici.dir\objects1.rsp @<<
  /out:EserciziCalcolatoriElettronici.exe /implib:EserciziCalcolatoriElettronici.lib /pdb:"D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\EserciziCalcolatoriElettronici.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
