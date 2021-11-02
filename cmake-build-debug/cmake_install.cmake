@@ -1,4 +1,4 @@
-# Install script for directory: D:/C Lang/EserciziCalcolatoriElettronici
+# Install script for directory: D:/C-Lang/esercizi-calcolatori-elettronici
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/C Lang/EserciziCalcolatoriElettronici/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/C-Lang/esercizi-calcolatori-elettronici/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

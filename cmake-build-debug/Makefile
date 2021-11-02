@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C Lang\EserciziCalcolatoriElettronici"
+CMAKE_SOURCE_DIR = D:\C-Lang\esercizi-calcolatori-elettronici
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug"
+CMAKE_BINARY_DIR = D:\C-Lang\esercizi-calcolatori-elettronici\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-Lang\esercizi-calcolatori-elettronici\cmake-build-debug\CMakeFiles D:\C-Lang\esercizi-calcolatori-elettronici\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C Lang\EserciziCalcolatoriElettronici\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-Lang\esercizi-calcolatori-elettronici\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,173 +118,173 @@ EserciziCalcolatoriElettronici\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\build
 .PHONY : EserciziCalcolatoriElettronici\fast
 
-pre-course\not-tested\C1.obj: pre-course\not-tested\C1.c.obj
-.PHONY : pre-course\not-tested\C1.obj
+C\pre-course\not-tested\C1.obj: C\pre-course\not-tested\C1.c.obj
+.PHONY : C\pre-course\not-tested\C1.obj
 
 # target to build an object file
-pre-course\not-tested\C1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.obj
-.PHONY : pre-course\not-tested\C1.c.obj
+C\pre-course\not-tested\C1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C1.c.obj
+.PHONY : C\pre-course\not-tested\C1.c.obj
 
-pre-course\not-tested\C1.i: pre-course\not-tested\C1.c.i
-.PHONY : pre-course\not-tested\C1.i
+C\pre-course\not-tested\C1.i: C\pre-course\not-tested\C1.c.i
+.PHONY : C\pre-course\not-tested\C1.i
 
 # target to preprocess a source file
-pre-course\not-tested\C1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.i
-.PHONY : pre-course\not-tested\C1.c.i
+C\pre-course\not-tested\C1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C1.c.i
+.PHONY : C\pre-course\not-tested\C1.c.i
 
-pre-course\not-tested\C1.s: pre-course\not-tested\C1.c.s
-.PHONY : pre-course\not-tested\C1.s
+C\pre-course\not-tested\C1.s: C\pre-course\not-tested\C1.c.s
+.PHONY : C\pre-course\not-tested\C1.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C1.c.s
-.PHONY : pre-course\not-tested\C1.c.s
+C\pre-course\not-tested\C1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C1.c.s
+.PHONY : C\pre-course\not-tested\C1.c.s
 
-pre-course\not-tested\C2.obj: pre-course\not-tested\C2.c.obj
-.PHONY : pre-course\not-tested\C2.obj
+C\pre-course\not-tested\C2.obj: C\pre-course\not-tested\C2.c.obj
+.PHONY : C\pre-course\not-tested\C2.obj
 
 # target to build an object file
-pre-course\not-tested\C2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.obj
-.PHONY : pre-course\not-tested\C2.c.obj
+C\pre-course\not-tested\C2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C2.c.obj
+.PHONY : C\pre-course\not-tested\C2.c.obj
 
-pre-course\not-tested\C2.i: pre-course\not-tested\C2.c.i
-.PHONY : pre-course\not-tested\C2.i
+C\pre-course\not-tested\C2.i: C\pre-course\not-tested\C2.c.i
+.PHONY : C\pre-course\not-tested\C2.i
 
 # target to preprocess a source file
-pre-course\not-tested\C2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.i
-.PHONY : pre-course\not-tested\C2.c.i
+C\pre-course\not-tested\C2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C2.c.i
+.PHONY : C\pre-course\not-tested\C2.c.i
 
-pre-course\not-tested\C2.s: pre-course\not-tested\C2.c.s
-.PHONY : pre-course\not-tested\C2.s
+C\pre-course\not-tested\C2.s: C\pre-course\not-tested\C2.c.s
+.PHONY : C\pre-course\not-tested\C2.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C2.c.s
-.PHONY : pre-course\not-tested\C2.c.s
+C\pre-course\not-tested\C2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C2.c.s
+.PHONY : C\pre-course\not-tested\C2.c.s
 
-pre-course\not-tested\C3.obj: pre-course\not-tested\C3.c.obj
-.PHONY : pre-course\not-tested\C3.obj
+C\pre-course\not-tested\C3.obj: C\pre-course\not-tested\C3.c.obj
+.PHONY : C\pre-course\not-tested\C3.obj
 
 # target to build an object file
-pre-course\not-tested\C3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.obj
-.PHONY : pre-course\not-tested\C3.c.obj
+C\pre-course\not-tested\C3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C3.c.obj
+.PHONY : C\pre-course\not-tested\C3.c.obj
 
-pre-course\not-tested\C3.i: pre-course\not-tested\C3.c.i
-.PHONY : pre-course\not-tested\C3.i
+C\pre-course\not-tested\C3.i: C\pre-course\not-tested\C3.c.i
+.PHONY : C\pre-course\not-tested\C3.i
 
 # target to preprocess a source file
-pre-course\not-tested\C3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.i
-.PHONY : pre-course\not-tested\C3.c.i
+C\pre-course\not-tested\C3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C3.c.i
+.PHONY : C\pre-course\not-tested\C3.c.i
 
-pre-course\not-tested\C3.s: pre-course\not-tested\C3.c.s
-.PHONY : pre-course\not-tested\C3.s
+C\pre-course\not-tested\C3.s: C\pre-course\not-tested\C3.c.s
+.PHONY : C\pre-course\not-tested\C3.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C3.c.s
-.PHONY : pre-course\not-tested\C3.c.s
+C\pre-course\not-tested\C3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C3.c.s
+.PHONY : C\pre-course\not-tested\C3.c.s
 
-pre-course\not-tested\C4.obj: pre-course\not-tested\C4.c.obj
-.PHONY : pre-course\not-tested\C4.obj
+C\pre-course\not-tested\C4.obj: C\pre-course\not-tested\C4.c.obj
+.PHONY : C\pre-course\not-tested\C4.obj
 
 # target to build an object file
-pre-course\not-tested\C4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.obj
-.PHONY : pre-course\not-tested\C4.c.obj
+C\pre-course\not-tested\C4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C4.c.obj
+.PHONY : C\pre-course\not-tested\C4.c.obj
 
-pre-course\not-tested\C4.i: pre-course\not-tested\C4.c.i
-.PHONY : pre-course\not-tested\C4.i
+C\pre-course\not-tested\C4.i: C\pre-course\not-tested\C4.c.i
+.PHONY : C\pre-course\not-tested\C4.i
 
 # target to preprocess a source file
-pre-course\not-tested\C4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.i
-.PHONY : pre-course\not-tested\C4.c.i
+C\pre-course\not-tested\C4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C4.c.i
+.PHONY : C\pre-course\not-tested\C4.c.i
 
-pre-course\not-tested\C4.s: pre-course\not-tested\C4.c.s
-.PHONY : pre-course\not-tested\C4.s
+C\pre-course\not-tested\C4.s: C\pre-course\not-tested\C4.c.s
+.PHONY : C\pre-course\not-tested\C4.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C4.c.s
-.PHONY : pre-course\not-tested\C4.c.s
+C\pre-course\not-tested\C4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C4.c.s
+.PHONY : C\pre-course\not-tested\C4.c.s
 
-pre-course\not-tested\C5.obj: pre-course\not-tested\C5.c.obj
-.PHONY : pre-course\not-tested\C5.obj
+C\pre-course\not-tested\C5.obj: C\pre-course\not-tested\C5.c.obj
+.PHONY : C\pre-course\not-tested\C5.obj
 
 # target to build an object file
-pre-course\not-tested\C5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.obj
-.PHONY : pre-course\not-tested\C5.c.obj
+C\pre-course\not-tested\C5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C5.c.obj
+.PHONY : C\pre-course\not-tested\C5.c.obj
 
-pre-course\not-tested\C5.i: pre-course\not-tested\C5.c.i
-.PHONY : pre-course\not-tested\C5.i
+C\pre-course\not-tested\C5.i: C\pre-course\not-tested\C5.c.i
+.PHONY : C\pre-course\not-tested\C5.i
 
 # target to preprocess a source file
-pre-course\not-tested\C5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.i
-.PHONY : pre-course\not-tested\C5.c.i
+C\pre-course\not-tested\C5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C5.c.i
+.PHONY : C\pre-course\not-tested\C5.c.i
 
-pre-course\not-tested\C5.s: pre-course\not-tested\C5.c.s
-.PHONY : pre-course\not-tested\C5.s
+C\pre-course\not-tested\C5.s: C\pre-course\not-tested\C5.c.s
+.PHONY : C\pre-course\not-tested\C5.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C5.c.s
-.PHONY : pre-course\not-tested\C5.c.s
+C\pre-course\not-tested\C5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C5.c.s
+.PHONY : C\pre-course\not-tested\C5.c.s
 
-pre-course\not-tested\C6.obj: pre-course\not-tested\C6.c.obj
-.PHONY : pre-course\not-tested\C6.obj
+C\pre-course\not-tested\C6.obj: C\pre-course\not-tested\C6.c.obj
+.PHONY : C\pre-course\not-tested\C6.obj
 
 # target to build an object file
-pre-course\not-tested\C6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.obj
-.PHONY : pre-course\not-tested\C6.c.obj
+C\pre-course\not-tested\C6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C6.c.obj
+.PHONY : C\pre-course\not-tested\C6.c.obj
 
-pre-course\not-tested\C6.i: pre-course\not-tested\C6.c.i
-.PHONY : pre-course\not-tested\C6.i
+C\pre-course\not-tested\C6.i: C\pre-course\not-tested\C6.c.i
+.PHONY : C\pre-course\not-tested\C6.i
 
 # target to preprocess a source file
-pre-course\not-tested\C6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.i
-.PHONY : pre-course\not-tested\C6.c.i
+C\pre-course\not-tested\C6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C6.c.i
+.PHONY : C\pre-course\not-tested\C6.c.i
 
-pre-course\not-tested\C6.s: pre-course\not-tested\C6.c.s
-.PHONY : pre-course\not-tested\C6.s
+C\pre-course\not-tested\C6.s: C\pre-course\not-tested\C6.c.s
+.PHONY : C\pre-course\not-tested\C6.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C6.c.s
-.PHONY : pre-course\not-tested\C6.c.s
+C\pre-course\not-tested\C6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C6.c.s
+.PHONY : C\pre-course\not-tested\C6.c.s
 
-pre-course\not-tested\C7.obj: pre-course\not-tested\C7.c.obj
-.PHONY : pre-course\not-tested\C7.obj
+C\pre-course\not-tested\C7.obj: C\pre-course\not-tested\C7.c.obj
+.PHONY : C\pre-course\not-tested\C7.obj
 
 # target to build an object file
-pre-course\not-tested\C7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.obj
-.PHONY : pre-course\not-tested\C7.c.obj
+C\pre-course\not-tested\C7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C7.c.obj
+.PHONY : C\pre-course\not-tested\C7.c.obj
 
-pre-course\not-tested\C7.i: pre-course\not-tested\C7.c.i
-.PHONY : pre-course\not-tested\C7.i
+C\pre-course\not-tested\C7.i: C\pre-course\not-tested\C7.c.i
+.PHONY : C\pre-course\not-tested\C7.i
 
 # target to preprocess a source file
-pre-course\not-tested\C7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.i
-.PHONY : pre-course\not-tested\C7.c.i
+C\pre-course\not-tested\C7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C7.c.i
+.PHONY : C\pre-course\not-tested\C7.c.i
 
-pre-course\not-tested\C7.s: pre-course\not-tested\C7.c.s
-.PHONY : pre-course\not-tested\C7.s
+C\pre-course\not-tested\C7.s: C\pre-course\not-tested\C7.c.s
+.PHONY : C\pre-course\not-tested\C7.s
 
 # target to generate assembly for a file
-pre-course\not-tested\C7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\pre-course\not-tested\C7.c.s
-.PHONY : pre-course\not-tested\C7.c.s
+C\pre-course\not-tested\C7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EserciziCalcolatoriElettronici.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EserciziCalcolatoriElettronici.dir\C\pre-course\not-tested\C7.c.s
+.PHONY : C\pre-course\not-tested\C7.c.s
 
 # Help Target
 help:
@@ -295,27 +295,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... EserciziCalcolatoriElettronici
-	@echo ... pre-course/not-tested/C1.obj
-	@echo ... pre-course/not-tested/C1.i
-	@echo ... pre-course/not-tested/C1.s
-	@echo ... pre-course/not-tested/C2.obj
-	@echo ... pre-course/not-tested/C2.i
-	@echo ... pre-course/not-tested/C2.s
-	@echo ... pre-course/not-tested/C3.obj
-	@echo ... pre-course/not-tested/C3.i
-	@echo ... pre-course/not-tested/C3.s
-	@echo ... pre-course/not-tested/C4.obj
-	@echo ... pre-course/not-tested/C4.i
-	@echo ... pre-course/not-tested/C4.s
-	@echo ... pre-course/not-tested/C5.obj
-	@echo ... pre-course/not-tested/C5.i
-	@echo ... pre-course/not-tested/C5.s
-	@echo ... pre-course/not-tested/C6.obj
-	@echo ... pre-course/not-tested/C6.i
-	@echo ... pre-course/not-tested/C6.s
-	@echo ... pre-course/not-tested/C7.obj
-	@echo ... pre-course/not-tested/C7.i
-	@echo ... pre-course/not-tested/C7.s
+	@echo ... C/pre-course/not-tested/C1.obj
+	@echo ... C/pre-course/not-tested/C1.i
+	@echo ... C/pre-course/not-tested/C1.s
+	@echo ... C/pre-course/not-tested/C2.obj
+	@echo ... C/pre-course/not-tested/C2.i
+	@echo ... C/pre-course/not-tested/C2.s
+	@echo ... C/pre-course/not-tested/C3.obj
+	@echo ... C/pre-course/not-tested/C3.i
+	@echo ... C/pre-course/not-tested/C3.s
+	@echo ... C/pre-course/not-tested/C4.obj
+	@echo ... C/pre-course/not-tested/C4.i
+	@echo ... C/pre-course/not-tested/C4.s
+	@echo ... C/pre-course/not-tested/C5.obj
+	@echo ... C/pre-course/not-tested/C5.i
+	@echo ... C/pre-course/not-tested/C5.s
+	@echo ... C/pre-course/not-tested/C6.obj
+	@echo ... C/pre-course/not-tested/C6.i
+	@echo ... C/pre-course/not-tested/C6.s
+	@echo ... C/pre-course/not-tested/C7.obj
+	@echo ... C/pre-course/not-tested/C7.i
+	@echo ... C/pre-course/not-tested/C7.s
 .PHONY : help
 
 
