@@ -1,0 +1,12 @@
+01,gennaio,31
+02,febbraio,28
+03,marzo,31
+04,aprile,30
+05,maggio,31
+06,giugno,30
+07,luglio,31
+08,agosto,31
+09,settembre,30
+10,ottobre,31
+11,novembre,30
+12,dicembre,31

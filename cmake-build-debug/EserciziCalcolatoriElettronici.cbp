@@ -84,25 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C1.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C1.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C2.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C2.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C3.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C3.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C4.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C4.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C5.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C5.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C6.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C6.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
-		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/pre-course/not-tested/C7.c">
+		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/C/university/pre-course/not-tested/C7.c">
 			<Option target="EserciziCalcolatoriElettronici"/>
 		</Unit>
 		<Unit filename="D:/C-Lang/esercizi-calcolatori-elettronici/CMakeLists.txt">

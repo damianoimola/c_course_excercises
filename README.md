@@ -14,10 +14,12 @@ to run MIPS cose on my pc.
 For the **C** part, you can use the **C11** (ISO/IEC 9899:2011) version.
 
 ## Info
-Now, some infos about the project structure: each part (C, Assembly), is divided in two macro categories
-called **course** and **pre-course** (there is also the directory called **exercise-files** where I get the exercises).\
-The first one are filled by exercises made after some concepts
-got from the course, the second one, are filled by exercises made 
+Now, some infos about the project structure: the Assembly part, is divided in two macro categories
+called **course** and **pre-course** (there is also the directory called **exercise-files** where I get the exercises); instead, the C
+directory has some others sub-directories and files, but in the "university" folder you can find the same structure of
+the Assembly part.\
+The first one folder (course) are filled by exercises made after some concepts
+got from the course, the second onev(pre-course), are filled by exercises made 
 before the course start and there can be some typos.
 
 ## ./pre-course/

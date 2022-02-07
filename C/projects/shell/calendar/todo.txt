@@ -1,0 +1,2 @@
+Risolvi il seg-fault nel wile delle funzioni per i mesi in 'calendar':
+	prova a farlo con un puntatore a carattere invece che una stringa di caratteri
