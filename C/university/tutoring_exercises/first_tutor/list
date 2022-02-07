@@ -1,0 +1,249 @@
+#include <stdio.h>
+#include <string.h>
+#include "list.h"
+
+typedef struct node node_t;
+typedef struct list list_t;
+
+// --- metodi ex. 1 ---
+list_t *populate(list_t *list, int argn, char * argv[]);
+list_t *rmvdup(list_t *src, list_t *dest);
+int find(list_t *list, int val);
+
+// --- metodi ex. 2 ---
+list_t *rmveven(list_t *src, list_t *dest);
+list_t *rmveven_side(list_t **list);
+void rmveven_ric(list_t *list, node_t *node, int evenc);
+void rmveven_ric_2(list_t *list, node_t *node);
+int iseven(node_t *node);
+
+
+
+int main(int argn, char * argv[]){
+	if(argn == 1){
+		puts("inserisci elementi della lista separati dallo spazio");
+		return 0;
+	}
+
+	// --- ESERCIZIO 1 ---
+	list_t *list = malloc(sizeof(*list));
+	populate(list, argn, argv);
+	puts("Beginning list");
+	printlist(list);
+	list_t *nodup = malloc(sizeof(nodup));
+	rmvdup(list, nodup);
+	puts("No duplicates list");
+	printlist(nodup);
+
+
+	// --- ESERCIZIO 2
+	list_t *noeven = malloc(sizeof(*noeven));
+	rmveven(list, noeven);
+	puts("No even list (no ric, no side)");
+	printlist(noeven);
+
+	rmveven_side(&list);
+	puts("No even list (side)");
+	printlist(noeven);
+
+	rmveven_ric(list, list->head, 0);
+	puts("No even list (ric)");
+	printlist(noeven);
+
+	rmveven_ric_2(list, list->head);
+	puts("No even list (best ric)");
+	printlist(noeven);
+
+}
+
+
+
+
+/*
+ *
+ *	ESERCIZIO 1 - 16/11/2021
+ *
+ */
+
+
+
+list_t * populate(list_t *list, int argn, char * argv[]){
+	int len = argn-1;
+	for(int i=0; i<len; i++){
+		// atoi returns 0 when error
+		int val = atoi(argv[i+1]);
+		if(val == 0){
+			exit(1);
+		}
+		insert(&list, NULL, val);
+	}
+	return list;
+}
+
+list_t *rmvdup(list_t *src, list_t *dest){
+	node_t *current = src->head;
+	while(current != NULL){
+		int val = current->val;
+		if(!find(src, val)){
+			insert(&dest, NULL, val);
+		}
+		current = current->next;
+	}
+	return dest;
+
+}
+
+int find(list_t *list, int val){
+	int counter = 0;
+	node_t *current = list->head;
+	while(current != NULL){
+		if(current->val == val){
+			counter+=1;
+		}
+		current = current->next;
+	}
+	return counter==2;
+}
+
+
+
+
+/*
+ *
+ *	ESERCIZIO 2 - 16/11/2021
+ *
+ */
+
+
+
+
+list_t * rmveven(list_t *src, list_t *dest){
+	node_t *current = src->head;
+	int evenc = 0;
+	while(current != NULL){
+		int even = iseven(current);
+		if(even){
+			evenc+=1;
+		} else {
+			// "<=" beacuse we have to insert the number itself
+			for(int i=0; i<=evenc; i++){
+				insert(&dest, NULL, current->val);
+			}
+			evenc = 0;
+
+		}
+		current = current->next;
+	}
+	return dest;
+}
+
+
+list_t * rmveven_side(list_t **list){
+	node_t *current = (*list)->head;
+	int evenc = 0;
+	while(current != NULL){
+		int even = iseven(current);
+		if(even){
+			rmv((*list), current);
+			evenc+=1;
+		} else {
+			for(int i=0; i<evenc; i++){
+				insert(list, current, current->val);
+			}
+			evenc = 0;
+
+		}
+		current = current->next;
+	}
+	return (*list);
+}
+
+
+void rmveven_ric(list_t *list, node_t *node, int evenc){
+	if(node == NULL){
+		return;
+	} else {
+		if(iseven(node)){
+			rmveven_ric(list, node->next, ++evenc);
+			rmv(list, node);
+		} else {// is odd
+			for(int i=0; i<evenc; i++){
+				insert(&list, node, node->val);
+			}
+			rmveven_ric(list, node->next, 0);
+		}
+	}
+}
+
+
+
+void rmveven_ric_2(list_t *list, node_t *node){
+	if(node == NULL){
+		return;
+	} else {
+		if(!iseven(node)){
+			node_t *pre = prev(list, node);
+			// int fpre=0, feven=0;
+			// while(fpre = (pre != NULL) && feven = (iseven(pre))){
+			while (pre != NULL && iseven(pre)){
+				insert(&list, node, node->val);
+				pre = prev(list, pre);
+			}
+
+			if(pre != NULL && iseven(pre)) {
+				rmv(list, pre);
+			}
+			rmveven_ric_2(list, node->next);
+		} else {
+			rmveven_ric_2(list, node->next);
+		}
+	}
+}
+
+
+int iseven(node_t *node){
+	if(node == NULL){
+		exit(1);
+	} else {
+		return ((node->val)%2) == 0;
+	}
+}
+
+
+
+
+
+
+
+/*
+ *
+ *
+ *	ESERCIZIO 3
+ *	- Queue con inserimento in testa e prelievo in coda
+ *	- Stack con inserimento e prelievo in testa
+ *	- Per semplicità utilizziamo array di numeri positivi, ma si
+ *	può facilmente generalizzare ad una qualsiasi
+ *	stuttura dati
+ */
+
+// generalized for both stack and queue
+node_t * push2(list_t *list, int val){
+	node_t *new = malloc(sizeof(*new));
+	new->val = val;
+	// works also if ll is empty
+	new->next = list->head;
+	list->head = new;
+	return new;
+}
+
+// for stack popping
+node_t *pop2(list_t *list){
+	return rmv(list, list->head);
+}
+
+// for queue extraction
+node_t * extract2(list_t *list){
+	return rmv(list, list->tail);
+}
+
+

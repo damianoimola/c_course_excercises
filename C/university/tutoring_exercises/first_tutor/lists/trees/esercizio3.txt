@@ -1,0 +1,26 @@
+Si, effettivamente l'implementazione dello pseudocodice è differente, e in particolare, quella presente sulle slides è ricorsiva con la seguente analisi della complessità
+
+
+node_rb_t *insertNode(node_rb_t *trav, node_rb_t *temp){
+	if(trav == NULL)
+		return temp;
+	
+	if(temp->data < trav->data){// 50% prob					// O(1)
+		trav->leftChild = insertNode(trav->leftChild, temp);		// T(n) + O(1)
+		trav->leftChild->parent = trav;					// O(1)
+	}
+	else if(temp->data > trav->data){// 50% prob				// O(1)
+		trav->rightChild = insertNode(trav->rightChild, temp);		// T(n) + O(1)
+		trav->rihtChild->parent = trav;					// O(1)
+	}
+	return trav;
+}
+
+Il caso medio generale è identico, in generale quindi la complessità è
+
+	T(n) = {1 se trav == NULL,	T(n) se trav == NULL}    --> O(n)
+
+Le operazioni effettuate sono in media (ed anche in totale) 3 + ricorsione.
+I side effect ci sono.
+
+
